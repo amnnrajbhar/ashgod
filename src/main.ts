@@ -162,54 +162,63 @@ import Typed from 'typed.js';
   </div>
 </section>
 
-      <!-- About Section -->
-      <section id="about" class="py-20 px-4 max-w-7xl mx-auto">
-        <div class="bento-grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div class="bento-item">
-            <h2 class="text-3xl font-bold mb-6">About Me</h2>
-            <p class="text-gray-400 mb-6">
-              VFX Artist with 3+ years of experience in the film and advertising industry. Specialized in compositing, rotoscoping, and creating high-quality visual effects. Proficient in industry-standard software and committed to delivering exceptional results that enhance storytelling through visual excellence.
-            </p>
-            <div class="flex flex-wrap gap-2">
-              <span class="skill-tag">Nuke</span>
-              <span class="skill-tag">Silhouette</span>
-              <span class="skill-tag">Mocha Pro</span>
-              <span class="skill-tag">After Effects</span>
-              <span class="skill-tag">Photoshop</span>
-              <span class="skill-tag">DaVinci Resolve</span>
-            </div>
-          </div>
-          <div class="bento-item">
-            <h3 class="text-2xl font-bold mb-4">Experience</h3>
-            <div class="space-y-4">
-              <div>
-                <h4 class="font-bold">VFX Artist</h4>
-                <p class="text-gray-400">DNEG • 2022 - Present</p>
-                <ul class="text-gray-400 mt-2 list-disc list-inside">
-                  <li>Worked on Brahmastra, Adipurush</li>
-                  <li>Complex compositing and rotoscoping</li>
-                </ul>
-              </div>
-              <div>
-                <h4 class="font-bold">Compositor</h4>
-                <p class="text-gray-400">Framestore • 2021 - 2022</p>
-                <ul class="text-gray-400 mt-2 list-disc list-inside">
-                  <li>Worked on Pathaan</li>
-                  <li>Rotoscoping and cleanup</li>
-                </ul>
-              </div>
-              <div>
-                <h4 class="font-bold">Junior VFX Artist</h4>
-                <p class="text-gray-400">Prime Focus • 2020 - 2021</p>
-                <ul class="text-gray-400 mt-2 list-disc list-inside">
-                  <li>TV commercials and music videos</li>
-                  <li>Basic compositing and rotoscoping</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+<!-- About Section -->
+<section id="about" class="py-12 sm:py-20 px-4 max-w-7xl mx-auto">
+  <div class="bento-grid grid grid-cols-1 md:grid-cols-2 gap-6">
+    <!-- About Me -->
+    <div class="bento-item">
+      <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-6">About Me</h2>
+      <p class="text-gray-400 mb-6 text-sm sm:text-base leading-relaxed">
+        VFX Artist with over 3 years of experience in the film and advertising industry. Specialized in compositing, rotoscoping, and creating high-quality visual effects. Proficient in industry-standard software and committed to delivering exceptional results that enhance storytelling through visual excellence.
+      </p>
+      <div class="flex flex-wrap gap-2">
+        <span class="skill-tag bg-gray-800 text-gray-200 text-xs sm:text-sm px-2 py-1 rounded">Nuke</span>
+        <span class="skill-tag bg-gray-800 text-gray-200 text-xs sm:text-sm px-2 py-1 rounded">Silhouette</span>
+        <span class="skill-tag bg-gray-800 text-gray-200 text-xs sm:text-sm px-2 py-1 rounded">Mocha Pro</span>
+        <span class="skill-tag bg-gray-800 text-gray-200 text-xs sm:text-sm px-2 py-1 rounded">After Effects</span>
+        <span class="skill-tag bg-gray-800 text-gray-200 text-xs sm:text-sm px-2 py-1 rounded">Photoshop</span>
+        <span class="skill-tag bg-gray-800 text-gray-200 text-xs sm:text-sm px-2 py-1 rounded">DaVinci Resolve</span>
+      </div>
+    </div>
+    <!-- Experience -->
+    <div class="bento-item">
+      <h3 class="text-xl sm:text-2xl font-bold mb-4">Experience</h3>
+      <div class="space-y-6">
+        <div>
+          <h4 class="font-bold text-lg">Compositor</h4>
+          <p class="text-gray-400 text-sm sm:text-base">PINCROWD Studio • 2024 - Present</p>
+          <ul class="text-gray-400 mt-2 text-sm sm:text-base list-disc list-inside space-y-1">
+            <li>VFX artist and Motion Graphics for commercial TVC brands including Asian Paints, Himalaya, KFC, Xiaomi, Classmate Pen, Bajaj Almond Drop, Choice FinX, Fun Foods, NewMe, Jimmy’s AV, and ICC Champions Trophy 2025</li>
+            <li>Complex compositing and rotoscoping</li>
+          </ul>
         </div>
-      </section>
+        <div>
+          <h4 class="font-bold text-lg">Motion Graphic Artist & Compositor</h4>
+          <p class="text-gray-400 text-sm sm:text-base">Artha Animation • 2023 - 2024</p>
+          <ul class="text-gray-400 mt-2 text-sm sm:text-base list-disc list-inside space-y-1">
+            <li>Worked on an unreleased CG animation series as a VFX artist</li>
+            <li>Contributed to commercial TVC ads for brands like SBI, Prince Pipes, and Yokohama</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-lg">Motion Graphics Artist</h4>
+          <p class="text-gray-400 text-sm sm:text-base">4DVFX Studio • 2022 - 2023</p>
+          <ul class="text-gray-400 mt-2 text-sm sm:text-base list-disc list-inside space-y-1">
+            <li>TV commercials and music videos</li>
+            <li>Basic compositing and rotoscoping</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold text-lg">Motion Graphics Artist Intern</h4>
+          <p class="text-gray-400 text-sm sm:text-base">Digi Mad Studio • 2022</p>
+          <ul class="text-gray-400 mt-2 text-sm sm:text-base list-disc list-inside space-y-1">
+            <li>Created social media posts and reels for local brands</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
       <!-- Contact Section -->
       <section id="contact" class="py-20 px-4 max-w-7xl mx-auto">
@@ -280,7 +289,7 @@ export class App implements AfterViewInit {
         'Compositor',
         '3D Artist',
         'Photographer',
-        'Designer',
+        'Motion Graphic',
         'Freelancer',
       ],
       typeSpeed: 100,
