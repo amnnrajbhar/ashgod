@@ -25,7 +25,7 @@ import Typed from 'typed.js';
         <div class="flex flex-col items-center text-center animate-slide-up">
           <div class="w-32 h-32 rounded-full overflow-hidden mb-6">
             <img 
-              src="https://source.unsplash.com/random/300x300?portrait" 
+              src="https://storage.googleapis.com/creatorspace-public/users%2Fclkgp90zh09vzp1014qmiqga2%2Ff2tGAbKWtPUZxT1c-VIDEO_6fd99bbc-a190-44d9-be9d-6bc66f320714.gif" 
               alt="Profile" 
               class="w-full h-full object-cover"
             >
@@ -252,6 +252,20 @@ import Typed from 'typed.js';
           </div>
         </div>
       </section>
+      <!-- Copyright Section -->
+      <footer class="py-6 bg-gray-900 text-gray-400 text-center">
+      <div class="max-w-7xl mx-auto px-4">
+        <p>
+          <a 
+            href="https://amnnrajbhar.github.io/info/" 
+            target="_blank" 
+            class="hover:text-white"
+          >
+            © 2025 Aman Rajbhar | All Rights Reserved
+          </a>
+        </p>
+      </div>
+    </footer>
     </div>
   `,
 })
