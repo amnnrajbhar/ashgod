@@ -280,7 +280,13 @@ import Typed from 'typed.js';
 })
 export class App implements AfterViewInit {
   @ViewChild('typedElement') typedElement!: ElementRef;
-
+  showPreloader = true;
+  constructor(){
+    // Hide preloader after 2 seconds
+    setTimeout(() => {
+      this.showPreloader = false;
+    }, 2000);
+  }
   ngAfterViewInit() {
     new Typed(this.typedElement.nativeElement, {
       strings: [
